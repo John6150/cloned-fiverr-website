@@ -1,0 +1,80 @@
+@media screen and (max-width: 1160px){
+    .opt1:nth-child(2){
+        display: none;
+    }
+    .opt1:nth-child(3){
+        display: none;
+    }
+    #menuss{
+        display: block;
+    }
+}
+
+@media screen and (max-width:1120px) {
+   
+}
+
+@media screen and (max-width: 900px){
+    .opt1:nth-child(1){
+        display: none;
+    }
+    .opt1:nth-child(4){
+        display: none;
+    }
+    .form button{
+        display: none;
+    }
+    .form{
+        width: 50% !important;
+        /* background-color: red; */
+    }
+    .form input{
+        width: 100%;
+    }
+    .navbar{
+        gap: 40px;
+        /* justify-content: space-between; */
+    }
+
+}
+
+@media screen  and (max-width: 600px){
+   #join{
+        border: none;
+        color: black;
+        font-size: 18px;
+    }
+}
+@media screen  and (max-width: 599px){
+   .opt1:nth-child(5){
+        display: none;
+    }
+    .form input{
+        display: none;
+    }
+    .navbar{
+        max-width: 92%;
+        height: fit-content;
+        display: flex;
+        gap: 0px;
+        justify-content: space-between !important;
+        /* background-color: green; */
+
+    }
+    .logo{
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        /* background-color: red; */
+    }
+    #search2{
+        display: block;
+    }
+ 
+}
+@media screen and (max-width:1025px){
+    .first{
+        /* background-color: red; */
+    }
+}

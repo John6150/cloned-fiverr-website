@@ -1,0 +1,197 @@
+@media screen and (max-width: 1160px) {
+
+
+    .navbar .form {
+        max-width: 27%;
+        /* background-color: red; */
+        /* display: none; */
+    }
+
+    .navbar input {
+        max-width: 87%;
+        /* display: none; */
+    }
+}
+
+@media screen and (max-width: 1189px){
+    #modal01, #modal02, #modal3, #modal4, #mod5, #mod6, #modal7, #modal8, #modal9, #modal10{
+        width: 100vw;
+        position: absolute;
+        left: 0; 
+    }
+}
+
+@media screen and (max-width: 1159px) {
+
+    .navbar .opt1:nth-child(2),
+    .navbar .opt1:nth-child(3) {
+        display: none;
+    }
+
+    /* .navbar #menu{
+        display: none;
+    } */
+
+    .navbar .form {
+        min-width: 37%;
+        /* display: none; */
+    }
+
+    .navbar input {
+        max-width: 87%;
+    }
+
+    #modal01, #modal02, #modal3, #modal4, #mod5, #mod6, #modal7, #modal8, #modal9, #modal10{
+
+        display: none !important;
+    }
+
+
+}
+
+
+@media screen and (max-width: 930px) {
+
+    .navbar .form {
+        min-width: 20%;
+    }
+
+    .navbar input {
+        max-width: 77%;
+    }
+}
+
+@media screen and (max-width: 899px) {
+
+    .main-content {
+        display: none;
+    }
+
+    .main-container {
+        background-color: white;
+    }
+
+    .navbar .opt1:nth-child(1),
+    .navbar .opt1:nth-child(4) {
+        display: none;
+    }
+
+    .navbar .form {
+        min-width: 40%;
+        width: 800px;
+        /* background-color: red; */
+        /* display: none; */
+    }
+
+    .navbar input {
+        max-width: 100%;
+        /* background-color: green; */
+    }
+
+    .form button {
+        display: none;
+    }
+
+    .main-contents2 {
+        display: flex;
+    }
+
+    .byjoin {
+        display: block;
+    }
+
+    .side_menu #menu {
+        display: block;
+        inline-size: 30px;
+
+        img {
+            display: block;
+        }
+    }
+
+    #menuss {
+        display: block;
+        background: red;
+    }
+    /* #menu_btn{
+        background-color: red;
+    } */
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .main-ten{
+        display: none;
+    }
+    .main-ten2{
+        display: flex;
+    }
+    .nav-bar2{
+        display: none;
+    }
+
+    .navbar .form {
+        display: none;
+    }
+
+    .navbar input {
+        display: none;
+    }
+
+    #side_menu {
+        width: 55%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar .opt1:nth-child(5) {
+        display: none;
+    }
+
+    #joinbtn button {
+        border: 0;
+        color: rgb(112, 112, 112);
+        font-size: 18px;
+        display: block;
+        /* background-color: red; */
+    }
+
+    #joinbtn button:hover {
+        background: none;
+    }
+
+
+
+    .social-footer1 {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+    .social-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-footer2 {
+        display: flex;
+        flex-wrap: wrap;
+        /* flex: 10; */
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+}
+
+@media screen and (max-width: 390px) {
+    #or {
+        display: none;
+    }
+}
