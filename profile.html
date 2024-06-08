@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Seller Dashboard</title>
     <link rel="icon" type="image/x-icon" href="fav.ico">
-    <link rel="stylesheet" href="dashboard.css">
-    <link rel="stylesheet" href="media-dashboard.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="media-profile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -149,221 +149,421 @@
                         <div class="opt3">
                             <div class="options1">
                                 <div class="profile2"></div>
-                                <div class="username">johnscommerce</div>
-                                <div class="status">N/A</div>
+                                <div class="username">
+                                    <b>Pipertech</b>
+                                    <span style="color: rgba(163, 163, 163, 0.581); font-size: 20px;"
+                                        class="material-symbols-outlined">
+                                        edit
+                                    </span>
+                                    <span
+                                        style="padding: 2px 5px 2px 5px; background-color: rgb(227, 104, 124); color: white; font-size: 11px; border-radius: 20px;">NEW</span>
+                                </div>
+                                <span style="color: grey;">@johnscommerce</span>
+                                <span style="display: flex; align-items: center; gap: 5px;">
+                                    <p>Software Engineer and Programmer</p> <span
+                                        style="color: rgba(163, 163, 163, 0.581); font-size: 20px;"
+                                        class="material-symbols-outlined">
+                                        edit
+                                    </span>
+                                </span>
+                                <span style="color: grey; font-size: 14px; display: flex; align-items: center;">
+                                    <?xml version="1.0" encoding="utf-8"?>
+                                    <svg style="background-color: none;" width="150px" height="20px"
+                                        viewBox="0 0 281 44.5" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <image width="128" height="128"
+                                                xlink:href="data:image/png;base64,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"
+                                                id="img_1" />
+                                        </defs>
+                                        <g id="Group-26">
+                                            <use xlink:href="#img_1" fill="#FFFFFF" stroke="none"
+                                                transform="matrix(0.34375 0 0 0.34375 0 0.5)" />
+                                            <use xlink:href="#img_1" fill="#FFFFFF" stroke="none"
+                                                transform="matrix(0.34375 0 0 0.34375 56 0)" />
+                                            <use xlink:href="#img_1" fill="#FFFFFF" stroke="none"
+                                                transform="matrix(0.34375 0 0 0.34375 116 0)" />
+                                            <use xlink:href="#img_1" fill="#FFFFFF" stroke="none"
+                                                transform="matrix(0.34375 0 0 0.34375 181 0)" />
+                                            <use xlink:href="#img_1" fill="#FFFFFF" stroke="none"
+                                                transform="matrix(0.34375 0 0 0.34375 237 0.5)" />
+                                        </g>
+                                    </svg>
+                                    <b style="color: rgb(30, 30, 30); font-weight: 900;">
+                                        4.8
+                                    </b>
+                                    &nbsp (400 reviews)
+                                </span>
+                                <button
+                                    style="color: rgb(69, 69, 69); width: 90%; background: none; padding: 8px 0 8px 0; border-radius: 4px; border: 1px solid black; outline: none;">Preview
+                                    Fiverr Profile</button>
+                                <div class="status"><b>・</b>Online</div>
                             </div>
                             <div class="options2">
                                 <div class="rate">
-                                    <p>Inbox response rate</p><span>100%</span>
+                                    <p style="display: flex; align-items: center; gap: 8px;"><img width="20px"
+                                            src="Location.png" alt="">From</p><span
+                                        style="color: rgb(54, 54, 54);"><b>Nigeria</b></span>
                                 </div>
                                 <div class="rate2">
-                                    <p>Inbox response time</p><span>N/A</span>
+                                    <p style="display: flex; align-items: center; gap: 8px;"><img width="20px"
+                                            src="User.png" alt="">Member since</p><span
+                                        style="color: rgb(54, 54, 54)"><b>Aug 2022</b></span>
                                 </div>
                                 <div class="rate">
-                                    <p>Order response rate</p><span>100%</span>
+                                    <p style="display: flex; align-items: center; gap: 8px;"><img width="20px"
+                                            src="Shape.png" alt=""> Avg. Response Time</p><span
+                                        style="color: rgb(54, 54, 54)"><b>2 hours</b></span>
                                 </div>
                                 <div class="rate">
-                                    <p>Delivered on time</p><span>100%</span>
+                                    <p style="display: flex; align-items: center; gap: 8px;"> <img width="15px"
+                                            src="Paper_Plane.png" alt=""> Last Delivery</p><span
+                                        style="color: rgb(54, 54, 54)"><b>5 days</b></span>
                                 </div>
-                                <div class="rate">
-                                    <p>Order completion</p><span>100%</span>
-                                </div>
+
                             </div>
-                            <div class="options3">
-                                <p>Earned in December</p>
-                                <p>US$9,315.52</p>
+                            <div class="options2a">
+                                <div class="rate">
+                                    <p style="display: flex; align-items: center; gap: 8px;"><img width="20px"
+                                            src="Calendar.png" alt="">Available</p>
+                                </div>
+                                <button
+                                    style="color: rgb(69, 69, 69); width: 100%; background: none; padding: 8px 0 8px 0; border-radius: 4px; border: 1px solid black; outline: none;">Preview
+                                    Fiverr Profile</button>
+
                             </div>
                         </div>
                     </div>
 
                     <div class="opt2">
                         <div class="opt2-content">
-                            <p>Inbox</p>
-                            <span>View All</span>
+                            <p style="color: rgb(37, 37, 37); font-weight: 900"><b>Intro video</b></p>
+                            <img width="20px" style="height: 20px;" src="Help.png" alt="">
+                            <span
+                                style="padding: 1px 9px 1px 9px; width: fit-content; height: 18px; background-color: rgb(0, 71, 184); color: white; font-size: 12px; border-radius: 15px; ">BETA</span>
                         </div>
+                        <span style="padding: 0 0 0 20px; color: rgb(90, 90, 90); font-size: 14px;">Stand out with a
+                            short introduction video.</span>
+                        <button
+                            style="border: none; outline: none; width: 90%; border-radius: 5px; background: rgb(5, 176, 91); font-size: 15px; color: white; padding: 16px 0 16px 0; margin: auto; font-weight: 900;">Get
+                            Started</button>
                     </div>
+                    <div class="opt2b">
+                        <div class="opt2-content">
+                            <p style="color: rgb(37, 37, 37); font-weight: 900"><b>My portfolio</b></p>
+                            <img width="20px" style="height: 20px;" src="Help.png" alt="">
+                            <span
+                                style="padding: 1px 9px 1px 9px; width: fit-content; height: 18px; background-color: rgb(255, 0, 157); color: white; font-size: 12px; border-radius: 15px; ">NEW</span>
+                        </div>
+                        <div style="background-color: none; display: flex; justify-content: space-between; flex-direction: row; width: 90%; height: 70%; margin: auto; grid-column: 2; grid-row: 2;"
+                            class="portfolio">
+                            <div style="width: 47%; height: 100%; background-color: none; display: flex; flex-direction: column; justify-content: space-between;"
+                                class="portfolio1">
+                                <div style="width: 100%; height: 47%; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.239); background-image: url(./Dark\ Mode.png); background-position: center; background-repeat: no-repeat; background-size: cover;"
+                                    class="port1"></div>
+                                <div style="width: 100%; height: 47%; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.239); display: flex; flex-direction: column; align-items: center; gap: 10px; justify-content: center; background-color: white; background-position: center; background-repeat: no-repeat; background-size: cover;"
+                                    class="port1">
+                                    <span style="color: rgb(0, 81, 255);">+</span>
+                                    <span style="color: rgb(0, 81, 255);">Add a Project</span>
+                                </div>
+
+                            </div>
+                            <div style="width: 47%; height: 100%; background-color: none; display: flex; flex-direction: column; justify-content: space-between;"
+                                class="portfolio1">
+                                <div style="width: 100%; height: 47%; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.239); background-image: url(./Signup\ page.png); background-position: center; background-repeat: no-repeat; background-size: cover;"
+                                    class="port1"></div>
+                                <div style="width: 100%; height: 47%; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.239); background-color: rgba(0, 0, 0, 0.054); background-image: url(Image_2.png); background-position: center; background-repeat: no-repeat; background-size: 50%;"
+                                    class="port1"></div>
+
+                            </div>
+
+                        </div>
+                        <a style="padding: 0 0 20px 20px; color: blue;" href="#">See Projects →</a>
+                        <!-- <span style="padding: 0 0 0 20px; color: rgb(90, 90, 90); font-size: 14px;">Stand out with a short introduction video.</span> -->
+                        <!-- <button style="border: none; outline: none; width: 90%; border-radius: 5px; background: rgb(5, 176, 91); font-size: 15px; color: white; padding: 16px 0 16px 0; margin: auto; font-weight: 900;">Get Started</button> -->
+                    </div>
+                    <div class="opt2c">
+                        <div class="opt2-content">
+                            <img width="90px" style="height: 20px;" src="fiv" alt="">
+                        </div>
+                        <img width="300px" style="margin: auto;" src="fiverrlearn2.png" alt="">
+                        <h3 style="margin: auto; font-size: 25px;">Earn badges and stand out</h3>
+                        <p
+                            style="margin: auto; width: 70%; text-align: center; color: rgb(71, 71, 71); font-weight: 100; font-size: 17px;">
+                            Boost your sales, by boosting your expertise.</p>
+                        <button
+                            style="border: none; outline: none; width: 35%; border-radius: 5px; background: rgb(5, 176, 91); font-size: 15px; color: white; padding: 16px 0 16px 0; margin: auto; font-weight: 900;">Enroll
+                            Now</button>
+                    </div>
+                    <div class="opt2d">
+                        <div class="opt2-content">
+                            <div style="display: flex; align-items: center; justify-content: space-between;"
+                                class="desc">
+                                <b>Description</b>
+                                <span style="color: rgb(0, 74, 149);">Edit Description</span>
+
+                            </div>
+                            <p style="color: grey; line-height: 30px; padding-top: 20px;">
+                                Hello, my name is John and I am a full-time freelancer. I have the technical knowledge
+                                in
+                                niches that include: Ecommerce, Digital Marketing and Creative Designs. I am certified
+                                as a
+                                Digital Marketer and possess remarkable skills in programming. I love to work with
+                                individuals and corporate organizations remotely in the digital space. I am quite
+                                flexible
+                                and easy to work with, and I hope to collaborate with you to take your business to the
+                                next
+                                level
+                            </p>
+                        </div>
+                        <div class="opt2-content1">
+                            <div style="display: flex; align-items: center; justify-content: space-between;"
+                                class="desc">
+                                <b>Languages</b>
+                                <span style="color: rgb(0, 74, 149);">Add New</span>
+
+                            </div>
+                            <span style="width: 100%; background-color: none; display: flex;">
+                                <p style="color: rgb(50, 50, 50);">English - &nbsp;</p>
+                                <p style="color: rgb(177, 177, 177);">Fluent</p>
+                            </span>
+                        </div>
+                        <div class="opt2-content1">
+                            <div style="display: flex; align-items: left; gap: 20px; flex-direction: column; justify-content: space-between;"
+                                class="desc">
+                                <b>Tests Taken</b>
+                                <span style="color: rgb(80, 80, 80);">Test your skills, earn more trust - <a
+                                        style="color: blue;" href="#">Learn More</a> </span>
+                            </div>
+                            <button
+                                style="border: 2px solid rgb(0, 196, 0); cursor: pointer; outline: none; background: none; border-radius: 5px; width: 39%; font-size: 17px; color: rgb(0, 196, 0); padding: 13px 0 13px 0;"><b>Take
+                                    a Test</b></button>
+                        </div>
+                        <div class="opt2-content1">
+                            <div style="display: flex; align-items: center; justify-content: space-between;"
+                                class="desc">
+                                <b>Skills</b>
+                                <span style="color: rgb(0, 74, 149);">Add New</span>
+
+                            </div>
+                            <span style="width: 100%; background-color: none; display: flex;">
+                                <p style="color: rgb(50, 50, 50);">Add your Skills. &nbsp;</p>
+                                <!-- <p style="color: rgb(177, 177, 177);">Fluent</p> -->
+                            </span>
+                        </div>
+                        <div class="opt2-content1">
+                            <div style="display: flex; align-items: center; justify-content: space-between;"
+                                class="desc">
+                                <b>Education</b>
+                                <span style="color: rgb(0, 74, 149);">Add New</span>
+
+                            </div>
+                            <span style="width: 100%; background-color: none; display: flex;">
+                                <p style="color: rgb(50, 50, 50);">Add your Education. &nbsp;</p>
+                                <!-- <p style="color: rgb(177, 177, 177);">Fluent</p> -->
+                            </span>
+                        </div>
+                        <div style="border-bottom: none;" class="opt2-content1">
+                            <div style="display: flex; align-items: center; justify-content: space-between;"
+                                class="desc">
+                                <b>Certification</b>
+                                <span style="color: rgb(0, 74, 149);">Add New</span>
+
+                            </div>
+                            <span style="width: 100%; background-color: none; display: flex; flex-direction: column;">
+                                <p style="color: rgb(50, 50, 50);">Digital Marketing &nbsp;</p>
+                                <p style="color: rgb(177, 177, 177);">Coursera 2020</p>
+                            </span>
+                            <span style="width: 100%; background-color: none; display: flex; flex-direction: column;">
+                                <p style="color: rgb(50, 50, 50);">Data Analytics &nbsp;</p>
+                                <p style="color: rgb(177, 177, 177);">Google 2020</p>
+                            </span>
+                        </div>
+
+
+                    </div>
+
                 </div>
                 <div class="first2-opt">
-                    <div class="first2-opt1">
-                        <h2>Welcome, johnscommerce</h2>
-                        <p>Find important messages, tips, and links to helpful resources here:</p>
+                    <div style="box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.31);" class="first2-opt1">
+                        <span
+                            style="height: 100%; border-bottom: 3px solid rgb(0, 194, 0); width: fit-content; display: flex; background-color: none; justify-content: center; align-items: center;">
+                            <p>ACTIVE GIGS</p>
+                        </span>
                     </div>
 
-                    <a href="#">
-                        <div class="first2-opt2">
-                            <div class="first2-opt2-content1">
-                                <div class="first2-opt2-text">
-                                    <h4>Add dropshipping to your website gigs</h4>
-                                    <p>We added a new website type: dropshipping. Make sure to open new gigs or adjust
-                                        your current gigs</p>
-                                </div>
-
-                                <div class="first2-opt2-icons">
-                                    <svg width="12" height="12" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
-                                        fill="#74767E">
-                                        <path
-                                            d="m8.485 7 4.487-4.487.926-.925a.35.35 0 0 0 0-.495l-.99-.99a.35.35 0 0 0-.495 0L7 5.515 1.588.102a.35.35 0 0 0-.495 0l-.99.99a.35.35 0 0 0 0 .495L5.514 7 .102 12.413a.35.35 0 0 0 0 .495l.99.99a.35.35 0 0 0 .495 0L7 8.485l4.487 4.487.926.926a.35.35 0 0 0 .495 0l.99-.99a.35.35 0 0 0 0-.495L8.485 7Z">
-                                        </path>
-                                    </svg>
-                                    <svg width="16" height="16" viewBox="0 0 8 16" xmlns="http://www.w3.org/2000/svg"
-                                        fill="#74767E">
-                                        <path
-                                            d="m.772 1.19-.619.62a.375.375 0 0 0 0 .53L5.8 8 .153 13.66a.375.375 0 0 0 0 .53l.62.62a.375.375 0 0 0 .53 0l6.544-6.545a.375.375 0 0 0 0-.53L1.302 1.19a.375.375 0 0 0-.53 0Z">
-                                        </path>
-                                    </svg>
-                                </div>
+                    <div class="gigs">
+                        <div class="gig1">
+                            <div class="gigimg">
 
                             </div>
-
-
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="first2-opt2">
-                            <div class="first2-opt2-content1">
-                                <div class="first2-opt2-text">
-                                    <h4>Prep for the upcoming holiday</h4>
-                                    <p>Use our improved availability feature to let buyers know you’re taking time
-                                        off—without impacting your rankings or performance.
-                                    </p>
-                                </div>
-
-                                <div class="first2-opt2-icons">
-                                    <svg width="12" height="12" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
-                                        fill="#74767E">
-                                        <path
-                                            d="m8.485 7 4.487-4.487.926-.925a.35.35 0 0 0 0-.495l-.99-.99a.35.35 0 0 0-.495 0L7 5.515 1.588.102a.35.35 0 0 0-.495 0l-.99.99a.35.35 0 0 0 0 .495L5.514 7 .102 12.413a.35.35 0 0 0 0 .495l.99.99a.35.35 0 0 0 .495 0L7 8.485l4.487 4.487.926.926a.35.35 0 0 0 .495 0l.99-.99a.35.35 0 0 0 0-.495L8.485 7Z">
-                                        </path>
-                                    </svg>
-                                    <!-- <a href="#"><svg width="16" height="16" viewBox="0 0 8 16"
-                                            xmlns="http://www.w3.org/2000/svg" fill="#74767E">
-                                            <path
-                                                d="m.772 1.19-.619.62a.375.375 0 0 0 0 .53L5.8 8 .153 13.66a.375.375 0 0 0 0 .53l.62.62a.375.375 0 0 0 .53 0l6.544-6.545a.375.375 0 0 0 0-.53L1.302 1.19a.375.375 0 0 0-.53 0Z">
-                                            </path>
-                                        </svg></a> -->
-                                </div>
-
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="first2-opt2">
-                            <div class="first2-opt2-content1">
-                                <div class="first2-opt2-text">
-                                    <h4>Set up inbox auto replies</h4>
-                                    <p>Greet new potential buyers with an auto reply to their first message.</p>
-                                </div>
-
-                                <div class="first2-opt2-icons">
-                                    <svg width="12" height="12" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"
-                                        fill="#74767E">
-                                        <path
-                                            d="m8.485 7 4.487-4.487.926-.925a.35.35 0 0 0 0-.495l-.99-.99a.35.35 0 0 0-.495 0L7 5.515 1.588.102a.35.35 0 0 0-.495 0l-.99.99a.35.35 0 0 0 0 .495L5.514 7 .102 12.413a.35.35 0 0 0 0 .495l.99.99a.35.35 0 0 0 .495 0L7 8.485l4.487 4.487.926.926a.35.35 0 0 0 .495 0l.99-.99a.35.35 0 0 0 0-.495L8.485 7Z">
-                                        </path>
-                                    </svg>
-                                    <svg width="16" height="16" viewBox="0 0 8 16" xmlns="http://www.w3.org/2000/svg"
-                                        fill="#74767E">
-                                        <path
-                                            d="m.772 1.19-.619.62a.375.375 0 0 0 0 .53L5.8 8 .153 13.66a.375.375 0 0 0 0 .53l.62.62a.375.375 0 0 0 .53 0l6.544-6.545a.375.375 0 0 0 0-.53L1.302 1.19a.375.375 0 0 0-.53 0Z">
-                                        </path>
-                                    </svg>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </a>
-
-                    <div class="first2-opt2">
-                        <div class="first2-opt2-content2">
-                            <h2>Active orders <span>- 0 ($0)</span></h2>
-                            <div class="active">
-                                <button>Active orders (0)
-                                    <svg width="11" height="7" viewBox="0 0 11 7" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M5.4636 6.38899L0.839326 1.769C0.692474 1.62109 0.692474 1.38191 0.839326 1.23399L1.45798 0.61086C1.60483 0.462945 1.84229 0.462945 1.98915 0.61086L5.72919 4.34021L9.46923 0.61086C9.61608 0.462945 9.85354 0.462945 10.0004 0.61086L10.619 1.23399C10.7659 1.38191 10.7659 1.62109 10.619 1.769L5.99477 6.38899C5.84792 6.5369 5.61046 6.5369 5.4636 6.38899Z">
-                                        </path>
-                                    </svg>
-                                </button>
-                                <div class="active-drop">
-                                    <button value="active">Active orders (0)</button>
-                                    <button>Completed</button>
-                                    <button>Canceled</button>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="upgrade">
-                        <h3>Upgrade Your Business</h3>
-                    </div>
-                    <div class="first3-opt1">
-                        <div class="first3-opt1-content1">
-                            <div class="first3-text">
-                                <h2>3 steps to become a top seller on Fiverr</h2>
-                                <p>The key to your success on Fiverr is the brand you build for yourself through your
-                                    Fiverr reputation. We gathered some tips and resources to help you become a leading
-                                    seller on Fiverr.</p>
-                            </div>
-                            <div class="steps">
-                                <div class="step1">
-                                    <div class="step-details">
-                                        <div class="icn"></div>
-                                        <h4>Get noticed</h4>
-                                        <p>Tap into the power of social media by <b>sharing your Gig,</b> and <a
-                                                href="#">get expert help</a> to grow your impact.</p>
-                                    </div>
-                                    <a href="#"><button>Share Your Gigs</button></a>
-
-                                </div>
-                                <div class="step1">
-                                    <div class="step-details">
-                                        <div class="icn"></div>
-                                        <h4>Get more skills & exposure</h4>
-                                        <p>Hone your skills and expand your knowledge with online courses. You’ll be
-                                            able to offer more services and
-                                            <b>gain more exposure</b> with every course completed.
-                                        </p>
-                                    </div>
-                                    <a href="#"><button>Explore Learn</button></a>
-
-                                </div>
-                                <div class="step1">
-                                    <div class="step-details">
-                                        <div class="icn"></div>
-                                        <h4>Become a successful seller!</h4>
-                                        <p>Watch this free online course to learn how to create an outstanding service
-                                            experience for your buyer and
-                                            <b>grow your career</b> as an online freelancer.
-                                        </p>
-                                    </div>
-                                    <a href="#"><button>Watch Free Course</button></a>
-
+                            <div class="gigtitle">
+                                <p style="color: rgb(79, 79, 79);">I will design a professional book formatting in adobe
+                                </p>
+                                <div class="gigprice">
+                                    <button style="border: none; outline: none; background: none;"><span
+                                            style="font-size: 30px; color: grey;">...</span></button>
+                                    <span style="font-size: 12px;">STARTING AT &nbsp;<b
+                                            style="font-size: 20px; font-weight: 900; color: black;">$5</b></span>
                                 </div>
                             </div>
                         </div>
+                        <div class="gig1">
+                            <div id="gigimg2" class="gigimg">
+
+                            </div>
+                            <div class="gigtitle">
+                                <p style="color: rgb(79, 79, 79);">I will create a standard shopify that sells</p>
+                                <div class="gigprice">
+                                    <button style="border: none; outline: none; background: none;"><span
+                                            style="font-size: 30px; color: grey;">...</span></button>
+                                    <span style="font-size: 12px;">STARTING AT &nbsp;<b
+                                            style="font-size: 20px; font-weight: 900; color: black;">$5</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gig1">
+                            <div id="gigimg3" class="gigimg">
+
+                            </div>
+                            <div class="gigtitle">
+                                <p style="color: rgb(79, 79, 79);">I will integrate smart chatbot with website and do
+                                    llm</p>
+                                <div class="gigprice">
+                                    <button style="border: none; outline: none; background: none;"><span
+                                            style="font-size: 30px; color: grey;">...</span></button>
+                                    <span style="font-size: 12px;">STARTING AT &nbsp;<b
+                                            style="font-size: 20px; font-weight: 900; color: black;">$5</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gig1">
+                            <div id="gigimg4" class="gigimg">
+
+                            </div>
+                            <div class="gigtitle">
+                                <p style="color: rgb(79, 79, 79);">I will design responsive brand and portfolio website
+                                </p>
+                                <div class="gigprice">
+                                    <button style="border: none; outline: none; background: none;"><span
+                                            style="font-size: 30px; color: grey;">...</span></button>
+                                    <span style="font-size: 12px;">STARTING AT &nbsp;<b
+                                            style="font-size: 20px; font-weight: 900; color: black;">$5</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gig1">
+                            <div id="gigimg5" class="gigimg">
+
+                            </div>
+                            <div class="gigtitle">
+                                <p style="color: rgb(79, 79, 79);">I will make corporate editing of your website</p>
+                                <div class="gigprice">
+                                    <button style="border: none; outline: none; background: none;"><span
+                                            style="font-size: 30px; color: grey;">...</span></button>
+                                    <span style="font-size: 12px;">STARTING AT &nbsp;<b
+                                            style="font-size: 20px; font-weight: 900; color: black;">$5</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gig1">
+                            <div id="gigimg6" class="gigimg">
+
+                            </div>
+                            <div class="gigtitle">
+                                <p style="color: rgb(79, 79, 79);">I will convert UI UX designs to html and css webpage in</p>
+                                <div class="gigprice">
+                                    <button style="border: none; outline: none; background: none;"><span
+                                            style="font-size: 30px; color: grey;">...</span></button>
+                                    <span style="font-size: 12px;">STARTING AT &nbsp;<b
+                                            style="font-size: 20px; font-weight: 900; color: black;">$5</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="addgig">
+                            <p style="background-color: black; font-size: 40px; border-radius: 100%; color: white; display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;">
+                                +
+                            </p>
+                            <p>Create a new gig</p>
+                        </div>
+                        
 
                     </div>
-                    <div class="first4-opt1">
-                        <div class="first4-opt2">
-                            <a href="#">
-                                <div class="first-image">
-
+                    <div class="reviews">
+                        <div class="reviews-content">
+                            <div style="display: flex; align-items: left; flex-direction: column; width: 100%; border-bottom: 1px solid rgba(128, 128, 128, 0.596); padding-bottom: 20px; height: fit-content; background-color: none; gap: 30px;" class="review-title">
+                                <b>4 reviews for this seller &nbsp; &nbsp;  <img width="80px" src="rate black.png" alt=""> &nbsp; 4.8</b>
+                                <div style="width: 100%; height: fit-content; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;" class="reviewspara">
+                                    <p>Seller commnication level <br> <img width="80px" src="rate black.png" alt=""> &nbsp;5</p>
+                                    <p>Recommend to a friend <br> <img width="80px" src="rate black.png" alt=""> &nbsp;5</p>
+                                    <p>Service as described <br> <img width="80px" src="rate black.png" alt=""> &nbsp;5</p>
                                 </div>
-                            </a>
-                            <a href="#">
-                                <div class="first-image"></div>
-                            </a>
-                            <a href="#">
-                                <div class="first-image"></div>
-                            </a>
-                            <a href="#">
-                                <div class="first-image"></div>
-                            </a>
+                            </div>
+                            <div style="width: 100%; height: fit-content; display: flex; align-items: left; padding: 30px 0 30px 0; gap: 20px; border-bottom: 1px solid rgba(128, 128, 128, 0.596);" class="review1">
+                                <div style="min-width: 70px; height: 70px; display: flex; align-items: top; justify-content: center; border-radius: 100%; background-color: rgba(0, 87, 194, 0.9); color: white; font-size: 50px;" class="buyerpic"><p>z</p></div> 
+                                <div style="display: flex; align-items: left; flex-direction: column; gap: 30px;" class="review1details">
+                                    <b>zactippins</b>
+                                    <p style="font-size: 14px; color: grey;">New Zealand</p>
+                                    <span><img width="70px" src="rate black.png" alt=""> &nbsp;<span style="padding-right: 5px; border-right: 1px solid rgba(128, 128, 128, 0.477); font-size: 15px;"> 5.0</span><span style="font-size: 13px; color: grey;"> 1 week ago</span></span>
+                                    <p style="font-size: 15px; color: grey;">This is my second job with PiperTech and I am very happy once again</p>
+                                    <img width="70px" src="1c.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="width: 100%; height: fit-content; display: flex; align-items: left; padding: 30px 0 30px 0; gap: 20px; border-bottom: 1px solid rgba(128, 128, 128, 0.596);" class="review1">
+                                <div style="min-width: 70px; height: 70px; display: flex; align-items: top; justify-content: center; border-radius: 100%; background-color: rgba(0, 87, 194, 0.9); color: white; font-size: 50px;" class="buyerpic"><p>z</p></div> 
+                                <div style="display: flex; align-items: left; flex-direction: column; gap: 30px;" class="review1details">
+                                    <b>zactippins</b>
+                                    <p style="font-size: 14px; color: grey;">New Zealand</p>
+                                    <span><img width="70px" src="rate black.png" alt=""> &nbsp;<span style="padding-right: 5px; border-right: 1px solid rgba(128, 128, 128, 0.477); font-size: 15px;"> 5.0</span><span style="font-size: 13px; color: grey;"> 1 week ago</span></span>
+                                    <p style="font-size: 15px; color: grey;">Prompt delivery and very responsive. Delivered on what I asked</p>
+                                    <img width="70px" src="02.jpg" alt="">
+                                </div>
+                            </div>
+                            <div style="width: 100%; height: fit-content; display: flex; align-items: left; padding: 30px 0 30px 0; gap: 20px; border-bottom: 1px solid rgba(128, 128, 128, 0.596);" class="review1">
+                                <div style="min-width: 70px; height: 70px; display: flex; align-items: top; justify-content: center; border-radius: 100%; background-color: rgba(0, 87, 194, 0.9); background-image: url(buyer-stories2.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; font-size: 50px;" class="buyerpic"></div> 
+                                <div style="display: flex; align-items: left; flex-direction: column; gap: 30px;" class="review1details">
+                                    <b>dammy_dynamic</b>
+                                    <p style="font-size: 14px; color: grey;">Uk</p>
+                                    <span><img width="70px" src="rate black.png" alt=""> &nbsp;<span style="padding-right: 5px; border-right: 1px solid rgba(128, 128, 128, 0.477); font-size: 15px;"> 5.0</span><span style="font-size: 13px; color: grey;"> 1 year ago</span></span>
+                                    <p style="font-size: 15px; color: grey;">John is great seller, I look forward to working with him more</p>
+                                    <img width="70px" src="work9.webp" alt="">
+                                </div>
+                            </div>
+                            <div style="width: 100%; height: fit-content; display: flex; align-items: left; padding: 30px 0 30px 0; gap: 20px; " class="review1">
+                                <div style="min-width: 70px; height: 70px; display: flex; align-items: top; justify-content: center; border-radius: 100%; background-color: rgba(0, 87, 194, 0.9);  background-image: url(buyer-stories3.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; color: white; font-size: 50px;" class="buyerpic"></div> 
+                                <div style="display: flex; align-items: left; flex-direction: column; gap: 30px;" class="review1details">
+                                    <b>zactippins</b>
+                                    <p style="font-size: 14px; color: grey;">United states</p>
+                                    <span><img width="70px" src="rate black.png" alt=""> &nbsp;<span style="padding-right: 5px; border-right: 1px solid rgba(128, 128, 128, 0.477); font-size: 15px;"> 5.0</span><span style="font-size: 13px; color: grey;"> 1 year ago</span></span>
+                                    <p style="font-size: 15px; color: grey;">Perfect!!! Highly recommend</p>
+                                    <img width="70px" src="s5.webp" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <!-- <div class="reviews">
+                        <div class="reviews-content">
+                            <div style="display: flex; align-items: left; flex-direction: column; width: 100%; border-bottom: 1px solid rgba(128, 128, 128, 0.596); padding-bottom: 20px; height: fit-content; background-color: none; gap: 30px;" class="review-title">
+                                <b>4 reviews for this seller &nbsp; &nbsp;  <img width="80px" src="rate black.png" alt=""> &nbsp; 4.8</b>
+                                <div style="width: 100%; height: fit-content; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;" class="reviewspara">
+                                    <p>Seller commnication level <br> <img width="80px" src="rate black.png" alt=""> &nbsp;5</p>
+                                    <p>Recommend to a friend <br> <img width="80px" src="rate black.png" alt=""> &nbsp;5</p>
+                                    <p>Service as described <br> <img width="80px" src="rate black.png" alt=""> &nbsp;5</p>
+                                </div>
+                            </div>
+                            <div style="width: 100%; height: fit-content; display: flex; align-items: left; padding: 30px 0 30px 0; gap: 20px; border-bottom: 1px solid rgba(128, 128, 128, 0.596);" class="review1">
+                                <div style="width: 70px; height: 70px; display: flex; align-items: top; justify-content: center; border-radius: 100%; background-color: rgba(0, 87, 194, 0.9); color: white; font-size: 50px;" class="buyerpic"><p>z</p></div> 
+                                <div style="display: flex; align-items: left; flex-direction: column; gap: 30px;" class="review1details">
+                                    <b>zactippins</b>
+                                    <p style="font-size: 14px; color: grey;">New Zealand</p>
+                                    <span><img width="70px" src="rate black.png" alt=""> &nbsp;<span style="padding-right: 5px; border-right: 1px solid rgba(128, 128, 128, 0.477); font-size: 15px;"> 5.0</span><span style="font-size: 13px; color: grey;"> 1 week ago</span></span>
+                                    <p style="font-size: 15px; color: grey;">This is my second job with PiperTech and I am very happy once again</p>
+                                    <img width="70px" src="1c.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
                 </div>
             </div>
         </div>
